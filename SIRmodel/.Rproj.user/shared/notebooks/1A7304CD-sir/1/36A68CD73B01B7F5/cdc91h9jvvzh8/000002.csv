@@ -1,0 +1,3 @@
+"0","library(deSolve)"
+"0","r <-  rk4(y0, times, SIR, params)"
+"0","plot(r)"

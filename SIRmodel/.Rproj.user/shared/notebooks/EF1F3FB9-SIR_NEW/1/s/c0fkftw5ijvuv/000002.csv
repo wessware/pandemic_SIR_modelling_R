@@ -1,0 +1,7 @@
+"0","r <-  ode(y0, times, SIR, params, method = rkMethod(""ode45""))"
+"0","# peak of the infected"
+"0","which.max(r[, ""I""])"
+"1","[1]"
+"1"," 29"
+"1","
+"

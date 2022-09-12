@@ -1,0 +1,3 @@
+"0","dSdt <- function(t, S, I) {"
+"0","  return(-beta * S * I / N)"
+"0","}"

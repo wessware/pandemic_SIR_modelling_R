@@ -1,0 +1,5 @@
+"0","p <- autoplot(compare)"
+"2","Coordinate system already present. Adding new coordinate system, which will replace the existing one.
+"
+"0","p + geom_violin(aes(color = expr, fill = expr)) + "
+"0","  theme(legend.position = ""none"")"

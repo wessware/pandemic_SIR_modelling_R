@@ -1,0 +1,8 @@
+"0","library(reshape2)"
+"0","r.plot <- melt(r, id = ""n"", measure = c(""S"", ""I"", ""R""))"
+"0","library(ggplot2)"
+"2","package ‘ggplot2’ was built under R version 4.0.5"
+"0","p <- ggplot(r.plot, aes(x = n, y = value, group = variable, color = variable))"
+"0","p + geom_line() + "
+"0","  ggtitle(""Measles Epidemic in England, Without reproduction (1944 -1994)"")"
+"0",""

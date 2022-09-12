@@ -1,0 +1,3 @@
+"0","dIdt <- function(t, S, I) {"
+"0","  return(beta * S * I / N - gamma * I)"
+"0","}"

@@ -1,0 +1,8 @@
+"0","SIR <- function(t, y, params) {"
+"0","  with(as.list(c(params, y)), {"
+"0","    dS <- -beta * S * I / N"
+"0","    dI <- beta * S * I / N - gamma * I"
+"0","    dR <- gamma * I"
+"0","    list(c(dS, dI, dR))"
+"0","  })"
+"0","}"

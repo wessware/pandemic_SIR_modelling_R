@@ -1,0 +1,6 @@
+"0","# initial (state) values for SIR model"
+"0","y0 <- c(S = S0, I = I0, R = 0)"
+"0","# vector of time steps"
+"0","times <- 0:n"
+"0","# vector of parameters used in SIR model"
+"0","params <- c(beta = beta, gamma = gamma)"

@@ -1,0 +1,4 @@
+"0","r.plot <- melt(r, id = ""n"", measure = c(""S"", ""I"", ""R""))"
+"0","p <- ggplot(r.plot, aes(x = n, y = value, group = variable, color = variable))"
+"0","p + geom_line() + "
+"0","  ggtitle(""Measles Pandemic in England, without reproduction (1944 - 1994)"")"

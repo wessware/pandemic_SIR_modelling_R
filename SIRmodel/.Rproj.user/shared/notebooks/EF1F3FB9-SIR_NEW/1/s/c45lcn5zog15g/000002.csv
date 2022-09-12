@@ -1,0 +1,1 @@
+"0","r <- RK4SIR.Yang(n, beta, gamma, S0, I0)"
